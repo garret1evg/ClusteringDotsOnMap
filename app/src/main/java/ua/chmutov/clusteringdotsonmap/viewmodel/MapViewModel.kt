@@ -36,7 +36,7 @@ class MapViewModel(
                     _hotspotDatas.postValue(mutableListOf<HotspotData>().apply {
                         reader.lines().forEach { line ->
                             val tokens = line.split(",")
-                            tokens.forEach { token -> Log.e("TOKEN", token) }
+//                            tokens.forEach { token -> Log.e("TOKEN", token) }
                             try {
                                 add(
                                     HotspotData(

@@ -11,7 +11,7 @@ data class HotspotData(
     val lat: Double = 0.0,
     val lng: Double = 0.0
 ) : Parcelable, ClusterItem {
-    override fun getPosition(): LatLng = LatLng(lat,lng)
+    override fun getPosition(): LatLng = LatLng(lat, lng)
 
     override fun getTitle(): String = id.toString()
 

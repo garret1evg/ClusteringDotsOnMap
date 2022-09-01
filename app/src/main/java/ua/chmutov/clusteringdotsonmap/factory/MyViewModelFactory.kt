@@ -1,6 +1,5 @@
 package ua.chmutov.clusteringdotsonmap.factory
 
-import android.app.Application
 import android.content.res.AssetManager
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
